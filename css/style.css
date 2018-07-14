@@ -14,6 +14,17 @@ a,ul{
 ul{
 	list-style: none;
 }
+.clr{
+	zoom:1;
+}
+.clr:after{
+	content: '';
+	line-height: 0;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
 
 #header{
 	max-width: 978px;
@@ -180,5 +191,80 @@ ul{
 	display: inline-block;.
 	vertical-align: middle;
 }
-
+.countContent .list{
+	width:100%;
+	background: #fff;
+	border-right: 1px solid #dddddd;
+}
+.countContent .list li{
+	width:24.8%;
+	height: auto;
+	border: 1px solid #dddddd;
+	border-right: 0px;
+	float: left;
+	color: #666;
+	text-align: center;
+}
+.countContent .list li .type{
+	width: 90%;
+	margin-left:5%;
+	padding: 10px 0;
+	border-bottom: 1px dashed #dddddd;
+}
+.countContent .list li .type h1{
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+.countContent .list li p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.countContent .list li .introduce{
+	width: 90%;
+	margin-left:5%;
+	padding: 45px 0;
+	border-bottom: 1px dashed #dddddd;
+}
+.countContent .list li .introduce p:first-child{
+	margin-bottom: 5px;
+}
+.countContent .list li .count{
+	width: 90%;
+	margin-left:5%;
+	border-bottom: 1px dashed #dddddd;
+}
+.countContent .list li .count span{
+	width: 50%;
+	line-height: 24px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-indent: 2px;
+}
+.countContent .list li .count.p25{
+	padding: 25px 0;
+}
+.countContent .list li .count span img{
+	margin-right: 5px;
+	height: 12px;
+}
+.countContent .list li .price{
+	padding: 30px 0;
+}
+.countContent .list li .price p{
+	font-size: 36px;
+	line-height: 36px;
+	color: #2a76f0;
+}
+.countContent .list li .price a{
+	font-size: 12px;
+	color: #fff;
+	background:  #2a76f0;
+	width: 120px;
+	padding: 10px 0;
+	text-align: center;
+	display: inline-block;
+	margin-top: 20px;
+}
 
